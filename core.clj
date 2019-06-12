@@ -54,7 +54,7 @@
     (update! screen :renderer (stage))
     (add-timer! screen :spawn-banana 1 2)
     (let [background (texture "fundo_1.png")
-          player (assoc (texture "cow.png") :x 50, :y 50, :width 400, :height 350, :player? true, :direction :right)]
+          player (assoc (texture "DK.png") :x 50, :y 50, :width 400, :height 350, :player? true, :direction :right)]
       [background player]))
   
   :on-render
